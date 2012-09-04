@@ -1,0 +1,27 @@
+Team MKUltra
+
+Audience: Mostly the doctor, but we also have to worry about the patient's experience. If they are only using text messages, this should not be a problem. The secretaries will need to have a UI to work with as well.
+
+Time Estimation: 6 months, almost all of it is straightforward and requires very little effort. Hardest part is creating the bar graph.
+
+Language: PHP and JavaScript, probably want to use jquery.
+
+Platform: user wants a web app, so web browsers. Client said that he only really used chrome, but we should still check for IE/Firefox compliance just to be safe.
+
+Additional Features: 
+	1.  Separate database from his usual one
+	2.  Implement bar graphs to show reports
+		a. 1 bar graph showing what they have taken
+		b. 1 bar graph showing what days they have missed
+		c. Show at least a year at a time
+	3.  Text message to patients
+	4.  Automated phone process (Probably not going to happen unless the client wants to extend the due date another month or so.
+	5.  Customer needs to be able to respond via text message
+	6.  Needs by the end of the year (due date almost certainly a stretch)
+	7.  App or web form for secretary to enter data. Must not be able to view data after (Error prone, should discuss with client)
+	8.  Server space to store all data
+		a. Client said  no more than $1000 a year on storage space
+	9.  Doctor currently has 500 or so patients, is expecting that number to grow. 
+		a. Scalability must be considered but most likely won't be a huge issue
+		b. Multiple accounts to allow for multiple doctors.
+	10. Popup message/ toast on mobile devices. Almost certainly not going into the final spec.
