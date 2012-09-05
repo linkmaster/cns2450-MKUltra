@@ -1,0 +1,35 @@
+GPS Mapper
+Track location from android
+web to view (last location)
+web to view (monthly history)
+user login
+
+
+
+
+Audience:  people who are traveling?  parents trying to track kids?  people hiking who want to find their location or get a map?  just people in general?
+Time Estimation: ??
+Language:  java, php, mySQL, javascript
+Platform: web browser + android
+Additional Features: ??
+
+
+Questions:
+-what about database?  where do we store it?  is one provided?
+-track more than one phone?
+-login to phone? who controls who can track the phone?
+-in the web format, do we need a visual map, GPS coordinates, etc?
+-monthly history?  in text format, or visual?
+	*note:  visual would probably be very messy...
+	-for monthly, are we tracking average location (by day/week/month?) or a general map? text - location by GPS? city/state/country?
+
+
+base case:  one user, login from web attached to a single phone... android version 
++multi user:  probably very easy - 5 minutes?
++compatible up to v2.23 (?)
+
+
+
+
+concerns:
+-security

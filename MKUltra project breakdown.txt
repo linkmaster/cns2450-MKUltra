@@ -1,0 +1,24 @@
+Web
+
+(back end)
+1. Listener service (receive data)  (james)
+2. Write to database  (brian) (frank)
+
+
+(front end)
+1. interpret data (security)  (frank)
+1a. login  (brian)
+
+2. data display (wyatt)
+    -last location
+    -monthly history?
+    -(visual/coordinates?)
+
+
+Android
+1. find location (using GPS?)  (austin)
+2. send data  (shariann) (wyatt)
+    -log locally & send when we get service?  do we need to know location when not in service?
+    -what happens when the phone is off or out of service?
+    -interval for sending data?
+          
