@@ -1,0 +1,9 @@
+Server/Host: cs2450.intogeek.com
+
+#SSH/SFTP login info
+Username: cs2450
+Password: bXI8fld7bB
+
+#MYSQL login info
+Username: cs2450
+Password: mybXI8fld7bB
