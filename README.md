@@ -20,7 +20,7 @@ thezerothcat@hotmail.com
 801-885-4480
 
 James Jacobson
-spam@intogeek.com
+shames@intogeek.com
 435-709-1095
 
 Wyatt Penrod
