@@ -36,7 +36,7 @@ GPS Tracker is a new product that gives Android users the ability to track the d
 ### Android Side
 The Android side of this project consists of three components: the GPS Tracker Application (referred to as “application”), the GPS Tracker Service (referred to as “service”), and the GPS Tracker Database (referred to as “database” and which is used to locally store the location data gathered by the service).
 
-1. GPS Tracker Application - Description
+1. GPS Tracker Application - The Android application that the user runs to create a new tracking session, starting and stopping the service, and sending the gathered session data to the server.
     1. Will run on Android 2.3.3 (Honeycomb)
     2. When the application is launched, the user is presented with a text field with the prompt “Enter GPS Tracking Session Name” and a button “Create Session”
     3. When a name has been provided in the text field and the user clicks “Create Session”, the user is brought to a new activity screen:
@@ -47,20 +47,20 @@ The Android side of this project consists of three components: the GPS Tracker A
             2. Gather location data from service’s local database and calculates mileage traversed for the ended session using android’s API’s to google maps.
             3. Send session data to the server’s database.
             4. Delete session data from local database. 
-2. GPS Tracker Service - Description
+2. GPS Tracker Service - The service that actually polls the LocationManager API for GPS location and writes it to a local database
     1. Will run on the android device “behind the scenes”
     2. Is started by the GPS Tracker Application
     3. Is terminated by the GPS Tracker Application
     4. Gathers GPS location from LocationManager API whenever location has changed by more than 20 feet and 10 seconds.
     5. Writes new location data into local database (SQLite)
-3. GPS Tracker Local Database - Description
+3. GPS Tracker Local Database - Stores location and timestamp and other identifiers for the duration of the session.
     1. Implemented using SQLite
     2. Schema: SessionID (index starting with 0), PhoneID, SessionName, GPSCoordinates, Timestamps
 
 ### Server Side
 The server side of this project consists of two components: User Interface (involving user authentication and the display of tracked GPS sessions) and Data Storage (containing user account information and tracked GPS sessions).
 
-1. User Interface - Description
+1. User Interface - The login access page and the distance tracked display table page
     1. Chrome versions 17-23 are the only supported browsers.
     2. User Authentication
         1. When the home page is loaded, the user is presented with Username and Password fields and a Login button. A button to “Create User” is also provided.
@@ -70,7 +70,7 @@ The server side of this project consists of two components: User Interface (invo
     4. After login has occurred:
         1. Automatically display the most recent GPS Tracker session’s data in table format.
         2. Provide a way to select and view previous sessions.
-2. Data Storage - Description
+2. Data Storage - The database that listens for and stores the data sent from the android application.
     1. Data storage will exist in a MySQL database on the server and will consist of two tables: GPS-Users and GPS-Sessions.
     2. GPS-Users table schema: Username, PhoneID, Password
     3. GPS-Sessions table schema: SessionID, PhoneID, SessionName, GPSCoordinates, Timestamps
