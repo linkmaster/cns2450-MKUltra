@@ -66,7 +66,7 @@ The server side of this project consists of two components: User Interface (invo
     2. Registering new users
         1. When clicking the Create User button, the user is provided four text fields and a button: Username, PhoneID, two password fields (for verification) and a Register button.
         2. When Register is clicked, the username and phoneid are checked for uniqueness in the GPSUser table of the database and passwords are checked to match. If they all pass, then a new row is inserted into the GPSUser table and the user is automatically logged in.
-2. User Interface - After login has occurred
+2. User Interface - After login has occurred:
         1. Automatically display the most recent GPS Tracker session’s data in table format.
         2. Provide a way to select and view previous sessions.
 3. Data Storage - The database that listens for and stores the data sent from the android application.
