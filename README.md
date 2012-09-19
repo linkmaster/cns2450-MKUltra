@@ -32,30 +32,32 @@ GPS Tracker Requirements
 ----------------
 
 GPS Tracker is a new product that gives Android users the ability to track the distances they travel from their mobile devices and then view them from a web browser. The product is logically divided into two sides, the Android side and the Server Side.
+(FR) are functional requirements that must be included in the roadmap.
+(NF) are non-functional requirements, like supported platform and browser versions.
 
 ### Android Side
 The Android side of this project consists of three components: the GPS Tracker Application (referred to as “application”), the GPS Tracker Service (referred to as “service”), and the GPS Tracker Database (referred to as “database” and which is used to locally store the location data gathered by the service).
 
-1. GPS Tracker Application - The Android application that the user runs to create a new tracking session, starting and stopping the service, and sending the gathered session data to the server.
-    1. Will run on Android 2.3.3 (Honeycomb)
-    2. When the application is launched, the user is presented with a text field with the prompt “Enter GPS Tracking Session Name” and a button “Create Session”
-    3. When a name has been provided in the text field and the user clicks “Create Session”, the user is brought to a new activity screen:
-        1. When the service is not running, a “Start” button appears and, when pressed, starts the service.
-        2. When the service is running, a “Stop” button appears and, when pressed, stops the service.
-        3. The “End Session” button appears below the Start or Stop button. Pressing this button will:
-            1. End the current session. If pressed when the service is running, it will also terminate the service and end the session.
-            2. Gather location data from service’s local database and calculates mileage traversed for the ended session using android’s API’s to google maps.
-            3. Send session data to the server’s database.
-            4. Delete session data from local database. 
-2. GPS Tracker Service - The service that actually polls the LocationManager API for GPS location and writes it to a local database
-    1. Will run on the android device “behind the scenes”
-    2. Is started by the GPS Tracker Application
-    3. Is terminated by the GPS Tracker Application
-    4. Gathers GPS location from LocationManager API whenever location has changed by more than 20 feet and 10 seconds.
-    5. Writes new location data into local database (SQLite)
+1. (FR) GPS Tracker Application - The Android application that the user runs to create a new tracking session, starting and stopping the service, and sending the gathered session data to the server.
+    1. (NF) Will run on Android 2.3.3 (Honeycomb)
+    2. (FR) When the application is launched, the user is presented with a text field with the prompt “Enter GPS Tracking Session Name” and a button “Create Session”
+    3. (FR) When a name has been provided in the text field and the user clicks “Create Session”, the user is brought to a new activity screen:
+        1. (FR) When the service is not running, a “Start” button appears and, when pressed, starts the service.
+        2. (FR) When the service is running, a “Stop” button appears and, when pressed, stops the service.
+        3. (FR) The “End Session” button appears below the Start or Stop button. Pressing this button will:
+            1. (FR) End the current session. If pressed when the service is running, it will also terminate the service and end the session.
+            2. (FR) Gather location data from service’s local database and calculates mileage traversed for the ended session using android’s API’s to google maps.
+            3. (FR) Send session data to the server’s database.
+            4. (FR) Delete session data from local database. 
+2. (FR) GPS Tracker Service - The service that actually polls the LocationManager API for GPS location and writes it to a local database
+    1. (NF) Will run on the android device “behind the scenes”
+    2. (NF) Is started by the GPS Tracker Application
+    3. (NF) Is terminated by the GPS Tracker Application
+    4. (FR) Gathers GPS location from LocationManager API whenever location has changed by more than 20 feet and 10 seconds.
+    5. (FR) Writes new location data into local database (SQLite)
 3. GPS Tracker Local Database - Stores location and timestamp and other identifiers for the duration of the session.
-    1. Implemented using SQLite
-    2. Schema: SessionID (index starting with 0), PhoneID, SessionName, GPSCoordinates, Timestamps
+    1. (NF) Implemented using SQLite
+    2. (FR) Schema: SessionID (index starting with 0), PhoneID, SessionName, GPSCoordinates, Timestamps
 
 ### Server Side
 The server side of this project consists of two components: User Interface (involving user authentication and the display of tracked GPS sessions) and Data Storage (containing user account information and tracked GPS sessions).
