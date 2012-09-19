@@ -82,8 +82,8 @@ Roadmap
 Feature numbers are referenced hierarchically and are prepended with AS or SS to indicate Android Side or Server Side.
 
 ### September
-* Deliverable 1 - SS-3 and all subrequirements - Data Storage
-* Deliverable 2 - AS-3 and all subrequirements - Implement GPS tracker local database
+* Deliverable 1 - SS-3 and all subrequirements - Implement server side database
+* Deliverable 2 - AS-3 and all subrequirements - Implement GPS tracker local database on android
 
 ### October
 * Deliverable 3 - SS-1 and all subrequirements - User Interface/User Authentication
