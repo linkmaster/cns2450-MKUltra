@@ -56,7 +56,7 @@ The Android side of this project consists of three components: the GPS Tracker A
     4. (FR) Gathers GPS location from LocationManager API whenever location has changed by more than 20 feet and 10 seconds.
     5. (FR) Writes new location data into local database (SQLite)
 3. GPS Tracker Local Database - Stores location and timestamp and other identifiers for the duration of the session.
-    1. (FR) Implemented using SQLite
+    1. (NF) Implemented using SQLite
     2. (FR) Schema: SessionID (index starting with 0), PhoneID, SessionName, GPSCoordinates, Timestamps
 
 ### Server Side
@@ -79,24 +79,33 @@ The server side of this project consists of two components: User Interface (invo
 Roadmap
 -------------------
 
+Feature numbers are referenced hierarchically and are prepended with AS or SS to indicate Android Side or Server Side.
+
 ### September
-* Deliverable 1 - Feature 1
-* Deliverable 2 - Feature 3
+* Deliverable 1 - SS-3 and all subrequirements - Data Storage
+* Deliverable 2 - AS-3 and all subrequirements - Implement GPS tracker local database
 
 ### October
-* Deliverable 3 - Feature 1
-* Deliverable 4 - Feature 1
+* Deliverable 3 - SS-1 and all subrequirements - User Interface/User Authentication
+* Deliverable 4 - AS-2 and all subrequirements - GPS Tracker Service
 
 ### November
-* Deliverable 5 - Feature 3
-* Deliverable 6 - Feature 2
+* Deliverable 5 - GPS Tracker Application features:
+    * AS-1.2 - UI and functionality for creating new tracking session
+    * AS-1.3.1 - Start button that starts service
+    * AS-1.3.2 - Stop button that stops service
+* Deliverable 6 - AS-1.3.3 and all subrequirements - session control and mileage calculations
 
 ### December
-* Deliverable 7 - Feature 4
+* Deliverable 7 - SS-2 and all subrequirements - Display of mileage on website
  
-Task Assignment
+Task Assignments
 ------------------
 
-* Deliverable 1 - Mike & Other
-* Deliverable 2 - Mike & Other
-(Repeated for each deliverable)
+* Deliverable 1 - ___ & ___
+* Deliverable 2 - ___ & ___
+* Deliverable 3 - ___ & ___
+* Deliverable 4 - ___ & ___
+* Deliverable 5 - ___ & ___
+* Deliverable 6 - ___ & ___
+* Deliverable 7 - ___ & ___
