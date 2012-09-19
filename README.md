@@ -32,8 +32,8 @@ GPS Tracker Requirements
 ----------------
 
 GPS Tracker is a new product that gives Android users the ability to track the distances they travel from their mobile devices and then view them from a web browser. The product is logically divided into two sides, the Android side and the Server Side.
-(FR) are functional requirements that must be included in the roadmap.
-(NF) are non-functional requirements, like supported platform and browser versions.
+* (FR) are functional requirements that must be included in the roadmap.
+* (NF) are non-functional requirements, like supported platform and browser versions.
 
 ### Android Side
 The Android side of this project consists of three components: the GPS Tracker Application (referred to as “application”), the GPS Tracker Service (referred to as “service”), and the GPS Tracker Database (referred to as “database” and which is used to locally store the location data gathered by the service).
