@@ -55,7 +55,7 @@ The Android side of this project consists of three components: the GPS Tracker A
     3. (NF) Is terminated by the GPS Tracker Application
     4. (FR) Gathers GPS location from LocationManager API whenever location has changed by more than 20 feet and 10 seconds.
     5. (FR) Writes new location data into local database (SQLite)
-3. GPS Tracker Local Database - Stores location and timestamp and other identifiers for the duration of the session.
+3. (FR) GPS Tracker Local Database - Stores location and timestamp and other identifiers for the duration of the session.
     1. (NF) Implemented using SQLite
     2. (FR) Schema: SessionID (index starting with 0), PhoneID, SessionName, GPSCoordinates, Timestamps
 
