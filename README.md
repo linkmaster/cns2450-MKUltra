@@ -62,19 +62,19 @@ The Android side of this project consists of three components: the GPS Tracker A
 ### Server Side
 The server side of this project consists of two components: User Interface (involving user authentication and the display of tracked GPS sessions) and Data Storage (containing user account information and tracked GPS sessions).
 
-1. User Interface - User Authentication - The login access page
-    1. User Authentication
-        1. When the home page is loaded, the user is presented with Username and Password fields and a Login button. A button to “Create User” is also provided.
-    2. Registering new users
-        1. When clicking the Create User button, the user is provided four text fields and a button: Username, PhoneID, two password fields (for verification) and a Register button.
-        2. When Register is clicked, the username and phoneid are checked for uniqueness in the GPSUser table of the database and passwords are checked to match. If they all pass, then a new row is inserted into the GPSUser table and the user is automatically logged in.
-2. User Interface - After login has occurred:
-        1. Automatically display the most recent GPS Tracker session’s data in table format.
-        2. Provide a way to select and view previous sessions.
+1. (FR) User Interface - User Authentication - The login access page
+    1. (FR) User Authentication
+        1. (FR) When the home page is loaded, the user is presented with Username and Password fields and a Login button. A button to “Create User” is also provided.
+    2. (FR) Registering new users
+        1. (FR) When clicking the Create User button, the user is provided four text fields and a button: Username, PhoneID, two password fields (for verification) and a Register button.
+        2. (FR) When Register is clicked, the username and phoneid are checked for uniqueness in the GPSUser table of the database and passwords are checked to match. If they all pass, then a new row is inserted into the GPSUser table and the user is automatically logged in.
+2. (FR) User Interface - After login has successfully occurred:
+        1. (FR) Automatically display the most recent GPS Tracker session’s data in table format.
+        2. (FR) Provide a way to select and view previous sessions.
 3. Data Storage - The database that listens for and stores the data sent from the android application.
-    1. Data storage will exist in a MySQL database on the server and will consist of two tables: GPS-Users and GPS-Sessions.
-    2. GPS-Users table schema: Username, PhoneID, Password
-    3. GPS-Sessions table schema: SessionID, PhoneID, SessionName, GPSCoordinates, Timestamps
+    1. (FR) Data storage will exist in a MySQL database on the server and will consist of two tables: GPS-Users and GPS-Sessions.
+    2. (FR) GPS-Users table schema: Username, PhoneID, Password
+    3. (FR) GPS-Sessions table schema: SessionID, PhoneID, SessionName, GPSCoordinates, Timestamps
 
 Roadmap
 -------------------
