@@ -102,10 +102,10 @@ Feature numbers are referenced hierarchically and are prepended with AS or SS to
 Task Assignments
 ------------------
 
-* Deliverable 1 - ___ & ___
-* Deliverable 2 - ___ & ___
-* Deliverable 3 - ___ & ___
-* Deliverable 4 - ___ & ___
-* Deliverable 5 - ___ & ___
-* Deliverable 6 - ___ & ___
-* Deliverable 7 - ___ & ___
+* Deliverable 1 - Brian & James
+* Deliverable 2 - Wyatt & Frank
+* Deliverable 3 - Brian & Wyatt
+* Deliverable 4 - Shariann & Austin
+* Deliverable 5 - Austin & James
+* Deliverable 6 - Shariann & Frank
+* Deliverable 7 - James & Shariann
