@@ -40,22 +40,22 @@ List of all the stories to completed from the previous iteration
 	5. Web hosting
 		Status: Complete	
 		Team member: James & Brian
-		Size: ?
+		Size: 2
 
 	6. Design for server database
 		Status: Complete
 		Team member: Brian & James
-		Size: ?
+		Size: 2
 
 	7. Design for login UI
 		Status: Complete
 		Team member: Brian & James
-		Size: ?
+		Size: 3
 
 	8. Implementation for login UI
 		Status: Complete
 		Team member:  Brian & James
-		Size: ?
+		Size: 3
 
 	9. General project planning
 		Status: Complete
