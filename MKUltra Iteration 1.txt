@@ -113,3 +113,37 @@ List of all the stories you are attempting to complete by the end of this iterat
 List any communication you have had with your user during the iteration.
 	1. Initial communication - clarification
 	2. We determined which version of Android (gingerbread/2.3.3) and which device type (phone, not table) will be supported
+
+       EMAIL TO USER:
+Hi Jason, I'm also part of the team. Do you anticipate using this on an android phone or a tablet? If on a phone, I would suggest we start with baseline support of Honeycomb (the nickname of Android version 2.3.3) which is a probably the most common OS version on android phones right now.
+ 
+Thanks,
+Austin
+On Tue, Sep 25, 2012 at 4:29 PM, Jason Marshall <jasonm@infotraxsys.com> wrote:
+Brian,
+
+I am not sure on this one.  What version would you suggest on this one?
+
+Thanks,
+Jason
+Jason Marshall
+
+      EMAIL TO USER:2
+
+Subject: Re: Gps mapper
+
+Jason,
+
+What should our target android version be for the android side?
+
+Brian
+
+On Sep 17, 2012, at 12:25 PM, Jason Marshall <jasonm@infotraxsys.com> wrote:
+
+Brian,
+
+Based on my understanding of things, I think that would work great.
+
+Thanks,
+
+Jason
