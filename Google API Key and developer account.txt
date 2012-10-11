@@ -1,0 +1,8 @@
+Go to code.google.com/apis/console
+-----------------------------------
+Account: cs2450.mkultra@gmail.com
+Password: narpassword
+
+
+See API Access tab on the left side for API key details.
+We have the option of using a Simple API Access Key (provided), or an OAuth 2.0 client ID.
