@@ -1,5 +1,6 @@
 Write down a list of things your team feels they did wrong or poorly and the name of the person who brought it up
 	1. Organization is still an issue, with people sometimes doing the same job independently. (Shariann)
+	2. Coordination could be much better. I like the team leader(s) idea to help make this work better (James)
 
 
 Write down a list of things your team did right and the name of the person who brought it up.
@@ -7,7 +8,10 @@ Write down a list of things your team did right and the name of the person who b
 
 
 Write down 2 goals for your team to improve on.
-	1. I think we should establish a leader or leader(s). Someone suggested having two: one for the server side and one for the android side.  I think this is a great idea!  Having two people coordinate what needs to be done (and passing that on to their half of the team) is a lot easier than getting all six of us together. (Shariann)
+	1. I think we should establish a leader or leader(s). Someone suggested having two: 
+	one for the server side and one for the android side.  I think this is a great idea!  
+	Having two people coordinate what needs to be done (and passing that on to their half of the team) 
+	is a lot easier than getting all six of us together. (Shariann)
 
 	2. More integration between both sides of the project.
 
@@ -80,8 +84,13 @@ List of all the stories to completed from the previous iteration
 
 	9. Database queries
 		Status: Complete
-		Team member: Brian
+		Team member: Brian & James
 		Size: 1
+
+	10. Web UI Improvements for error handling
+		Status: Complete
+		Team member: James
+		Size: 2
 
 
 
@@ -100,11 +109,18 @@ List of all the stories you are attempting to complete by the end of this iterat
 
 	3. Add map display to UI (attached to table)
 		Status: Not started
-		Team member: Unassigned
+		Team member: James
 		Size: ?
 		Notes: This is a requirement for us to use the Google Maps API.
 		We can add a small map showing the start and end locations to the 
 		table display.
+
+	4. POST/PUT data request from the android phone to the server
+		Status: Not started
+		Team member: James & Austin
+		Size: 4
+		Notes: This will be a bit of a preparation to make sure we can get the two things talking
+		as we expect to. If we succeed then we'll likely get this fully implemented in this iteration.
 
 
 List any communication you have had with your user during the iteration.
