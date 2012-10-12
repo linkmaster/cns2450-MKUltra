@@ -121,6 +121,10 @@ List of all the stories you are attempting to complete by the end of this iterat
 		Size: 4
 		Notes: This will be a bit of a preparation to make sure we can get the two things talking
 		as we expect to. If we succeed then we'll likely get this fully implemented in this iteration.
+	5. Add editability to the trip 'notes' field on web UI
+		Status: Not started
+		Team member: James
+		Size: 2
 
 
 List any communication you have had with your user during the iteration.
