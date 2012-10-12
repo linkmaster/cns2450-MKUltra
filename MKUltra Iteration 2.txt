@@ -1,11 +1,11 @@
 Write down a list of things your team feels they did wrong or poorly and the name of the person who brought it up
 	1. Organization is still an issue, with people sometimes doing the same job independently. (Shariann)
 	2. Coordination could be much better. I like the team leader(s) idea to help make this work better (James)
-
-
+	3. Specifically, I think we are incorrectly implementing the "story" concept as a team. My understanding (and experience) with stories is that we break features down to the story level and then each story gets assigned to one person during an iteration. That gives each of us a clear idea of what we're working on and will address the independent overlap issue as noted in item #1. (Austin)
+	
 Write down a list of things your team did right and the name of the person who brought it up.
 	1. Improved understanding of the project and what is needed to complete it. (Shariann)
-
+	2. People are proactively completing their stories. (Austin)
 
 Write down 2 goals for your team to improve on.
 	1. I think we should establish a leader or leader(s). Someone suggested having two: 
@@ -91,7 +91,20 @@ List of all the stories to completed from the previous iteration
 		Status: Complete
 		Team member: James
 		Size: 2
-
+		
+	11. Implement Android Location polling service
+		Status: Complete
+		Team member: Austin
+		Size: 5
+		Notes: Service polls and obtains location using location manager api. Service is configured
+				to get location only from GPS. Start location, current location, and stop location are
+				stored in memory rather than written to db or file as decided in our group meeting.
+	
+	12. Implement Android distance calculations into service
+		Status: Complete
+		Team member: Austin
+		Size: 5
+		Notes: Service watches for location change and when change occurs, it performs distance calculation and stores in memory.
 
 
 List of all the stories you are attempting to complete by the end of this iteration
@@ -121,11 +134,24 @@ List of all the stories you are attempting to complete by the end of this iterat
 		Size: 4
 		Notes: This will be a bit of a preparation to make sure we can get the two things talking
 		as we expect to. If we succeed then we'll likely get this fully implemented in this iteration.
+		
 	5. Add editability to the trip 'notes' field on web UI
 		Status: Not started
 		Team member: James
 		Size: 2
 
+	6. Connect GPS Mapper app with GPS Mapper Service
+		Description: Implement functionality so the android app interface (buttons) start and stop the service.
+		Status: Not started
+		Team member: Austin
+		Size: 3
+	
+	7. Sync device ID with web user.
+		Description: Implement initial sync between device and web user so that later, gps mapper sessions sync up with the right web user. 
+		Status: Not started
+		Team member: Austin
+		Size: 5
+		
 
 List any communication you have had with your user during the iteration.
 	1. N/A
