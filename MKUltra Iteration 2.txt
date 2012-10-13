@@ -1,19 +1,23 @@
 Write down a list of things your team feels they did wrong or poorly and the name of the person who brought it up
 	1. Organization is still an issue, with people sometimes doing the same job independently. (Shariann)
 	2. Coordination could be much better. I like the team leader(s) idea to help make this work better (James)
-	3. Specifically, I think we are incorrectly implementing the "story" concept as a team. My understanding (and experience) with stories is that we break features down to the story level and then each story gets assigned to one person during an iteration. That gives each of us a clear idea of what we're working on and will address the independent overlap issue as noted in item #1. (Austin)
-	
+	3. Specifically, I think we are incorrectly implementing the "story" concept as a team. My understandin (and experience) with stories is that we break features down to the story level and 
+	then each story gets assigned to one person during an iteration. That gives each of us a clear idea of what we're working on and will address the independent overlap issue as noted in item #1. (Austin)
+	4.Communication has broken down(Frank Gadri).
+
 Write down a list of things your team did right and the name of the person who brought it up.
 	1. Improved understanding of the project and what is needed to complete it. (Shariann)
 	2. People are proactively completing their stories. (Austin)
+	3. More research is being done before implementation.(Frank Gadri)
 
 Write down 2 goals for your team to improve on.
 	1. I think we should establish a leader or leader(s). Someone suggested having two: 
 	one for the server side and one for the android side.  I think this is a great idea!  
 	Having two people coordinate what needs to be done (and passing that on to their half of the team) 
 	is a lot easier than getting all six of us together. (Shariann)
+	2.Improve communication and spend a more time on my part of the project(Frank Gadri)
 
-	2. More integration between both sides of the project.
+	3. More integration between both sides of the project.
 
 
 List of all the stories to completed from the previous iteration
@@ -107,6 +111,13 @@ List of all the stories to completed from the previous iteration
 		Notes: Service watches for location change and when change occurs, it performs distance calculation and stores in memory.
 
 
+	13.Research Database platform for Android side
+		Status:Complte
+		Team member:Frank Gadri
+		Size:3
+		Notes:Decide to use SQLite for my database on the Android side.
+
+
 List of all the stories you are attempting to complete by the end of this iteration
 	1. Implementation of address conversion
 		Status: In Progress (Coding)
@@ -151,7 +162,11 @@ List of all the stories you are attempting to complete by the end of this iterat
 		Status: Not started
 		Team member: Austin
 		Size: 5
-		
+	8.Create a Database on the Android
+		Description:Create Database on Android to have it commnicate and update server database,And implement communication with server
+		Status:In progress
+		Team Member:Frank Gadri
+		Size:4
 
 List any communication you have had with your user during the iteration.
 	1. N/A
