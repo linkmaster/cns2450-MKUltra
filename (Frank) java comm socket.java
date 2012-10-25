@@ -6,6 +6,7 @@
 //that EchoClient both writes to and reads from its socket, thereby sending data to and receiving data from the Echo server.(hopefully it works).
 
 //Echoclient wiil be replaced by Our Andoid Name or IP Addr(whatever)
+//code by Frank Gadri*******
 
 
 
@@ -26,7 +27,7 @@ public class EchoClient
  //The three statements in the try block of the main method are critical. These lines establish the socket connection between the client and the server and open a PrintWriter and a BufferedReader on the socket:
 // The Socket constructor used here requires the name of the machine and the port number to which you want to connect. The example program uses the host name taranis(change to our host name). This is the name of a hypothetical machine on our local network.we need to change change the host name to the name of Our server machine on our network. we need Make sure that our name use is the fully qualified IP name of the machine to which you want to connect. The second argument is the port number. Port number 7 is the port on which the Echo server listens.(needs to be change to our port number).
         try {
-            echoSocket = new Socket("taranis", 7);
+            echoSocket = new Socket("Our ServerName", 7);
 			
 //The second statement gets the socket's output stream and opens a PrintWriter on it. Similarly, the third statement gets the socket's input stream and opens a BufferedReader on it.I used readers and writers so that it can write Unicode characters over the socket.
 
@@ -40,13 +41,13 @@ public class EchoClient
 		//Exceptions are thrown when connections fail
 		catch (UnknownHostException e)
 		{
-            System.err.println("Don't know about host: taranis.");
+            System.err.println("Don't know about host: Servrname.");
             System.exit(1);
         } 
 		catch (IOException e) 
 		{
             System.err.println("Couldn't get I/O for "
-                               + "the connection to: taranis.");
+                               + "the connection to: OurServerName.");
             System.exit(1);
         }
  
