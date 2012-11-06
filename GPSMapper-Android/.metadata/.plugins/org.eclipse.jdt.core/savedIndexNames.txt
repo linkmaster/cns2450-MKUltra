@@ -1,5 +1,0 @@
-INDEX VERSION 1.126+C:\Users\awilliams\Desktop\Clayton Projects\School\CS 2450 - Software Engineering\GPSMapper\.metadata\.plugins\org.eclipse.jdt.core
-1182932217.index
-3352491446.index
-865165539.index
-2751382638.index
