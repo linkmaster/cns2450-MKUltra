@@ -2,6 +2,7 @@ Write down a list of things your team feels they did wrong or poorly and the nam
 	1. We lost track of who was working on what part of the project. (Frank Gadri) 
 	2. First time coding on the android has required more effort and I've had more problems than I expected getting results I expected using google's LocationManager api's. From a team perspective, others are dependent on this code working. (Austin)
 	3. Need to get better at replying to emails from/to each other (James)
+	4. We possibly need to have a regular status meeting? (Wyatt)
 
 
 Write down a list of things your team did right and the name of the person who brought it up.
@@ -37,7 +38,7 @@ List of all the stories to completed from the previous iteration
 
 List of all the stories you are attempting to complete by the end of this iteration
 	1. Look into how to create a simple android application and UI
-		Status: Not started
+		Status: Started
 		Team member: Wyatt
 		Size: 3 - 4
 
