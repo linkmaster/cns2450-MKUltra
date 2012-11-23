@@ -32,10 +32,10 @@ public class MainActivity extends Activity implements LocationListener {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_main);
 
-    latituteField = (TextView) findViewById(R.id.TextView02);
-    longitudeField = (TextView) findViewById(R.id.TextView04);
-    currProviderField = (TextView) findViewById(R.id.TextView06);
-    currDistanceField = (TextView) findViewById(R.id.TextView08);
+    latituteField = (TextView) findViewById(R.id.LatitudeText);
+    longitudeField = (TextView) findViewById(R.id.LongitudeText);
+    currProviderField = (TextView) findViewById(R.id.ProviderText);
+    currDistanceField = (TextView) findViewById(R.id.DistanceText);
     
    // locationManager.addGpsStatusListener(MainActivity);
     // Get the location manager
