@@ -1,0 +1,69 @@
+Write down a list of things your team feels they did wrong or poorly and the name of the person who brought it up
+	1. We lost track of who was working on what part of the project. (Frank Gadri) 
+	2. First time coding on the android has required more effort and I've had more problems than I expected getting results I expected using google's LocationManager api's. From a team perspective, others are dependent on this code working. (Austin)
+	3. Need to get better at replying to emails from/to each other (James)
+	4. We possibly need to have a regular status meeting? (Wyatt)
+
+
+Write down a list of things your team did right and the name of the person who brought it up.
+	1. We appointed team leaders to be more organized on our project. (Frank Gadri)
+	2. We created a spreadsheet that better displays the project scope and divides the work up between server and android side that makes it easier for us to see what work is done and what work remains. (Austin)
+	3. Getting better at communication though we could still do better... (James)
+
+
+Write down 2 goals for your team to improve on.
+	1. Get more stuff accomplished. (Shariann)
+	2. Communication between the Android and Server. (Brian)
+
+
+Write how well you completed your improvement items from the previous iteration.
+	1. We succeeded in establishing leadership for the team, with one leader for the Android side and one for the web side. (Shariann)
+	2. There seems to be more communication between the two sides of the project, with both sides discussing how the communication will happen between the client and the server. (Wyatt) 
+
+
+List of all the stories to completed from the previous iteration
+
+	1.Acquire additional android device for client side application testing 	and development, investigated development application uploading and use
+	Status: Completed
+	Team Member: Wyatt
+	Size: 2
+
+	2. 
+
+	1.Reseach how write a network programe
+		Status: Completed
+		Team Member:Frank Gadri
+		Size: 2
+
+
+List of all the stories you are attempting to complete by the end of this iteration
+	1. Look into how to create a simple android application and UI
+		Status: Started
+		Team member: Wyatt
+		Size: 3 - 4
+
+	2. Create improved layout for android client application
+		Status: Not started
+		Team member: Wyatt
+		Size: 7
+
+
+	1.Write a network Socket programe for Android to communicate with Server
+		Status:Conpleted
+		Team member:Frank Gadri
+		Size:6
+
+
+	2.Write a programe to send Data from Android to Server
+		Status:Not stated
+		Team member:Frank Gadri
+		Size:7
+
+
+List any communication you have had with your user during the iteration.
+
+
+
+
+
+
