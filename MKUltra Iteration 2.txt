@@ -1,0 +1,172 @@
+Write down a list of things your team feels they did wrong or poorly and the name of the person who brought it up
+	1. Organization is still an issue, with people sometimes doing the same job independently. (Shariann)
+	2. Coordination could be much better. I like the team leader(s) idea to help make this work better (James)
+	3. Specifically, I think we are incorrectly implementing the "story" concept as a team. My understandin (and experience) with stories is that we break features down to the story level and 
+	then each story gets assigned to one person during an iteration. That gives each of us a clear idea of what we're working on and will address the independent overlap issue as noted in item #1. (Austin)
+	4.Communication has broken down(Frank Gadri).
+
+Write down a list of things your team did right and the name of the person who brought it up.
+	1. Improved understanding of the project and what is needed to complete it. (Shariann)
+	2. People are proactively completing their stories. (Austin)
+	3. More research is being done before implementation.(Frank Gadri)
+
+Write down 2 goals for your team to improve on.
+	1. I think we should establish a leader or leader(s). Someone suggested having two: 
+	one for the server side and one for the android side.  I think this is a great idea!  
+	Having two people coordinate what needs to be done (and passing that on to their half of the team) 
+	is a lot easier than getting all six of us together. (Shariann)
+	2.Improve communication and spend a more time on my part of the project(Frank Gadri)
+
+	3. More integration between both sides of the project.
+
+
+List of all the stories to completed from the previous iteration
+	1. Research for address conversion
+		Status: Complete
+		Team member: Shariann
+		Size: 3
+		Notes: We will be using Google Maps' Reverse Geocoding.
+		Add to stories: Add map display to UI (attached to table)
+
+
+	2. Set up team account for Google Maps API
+		Status: Complete
+		Team member: Shariann
+		Size: 1
+		Notes: See Github file for details.
+
+
+	3. Implementation of address conversion
+		Status: In Progress (Implementation)
+		Team member: Shariann
+		Size: 6 + ?
+		Notes: I'm learning about php and web programming in general
+		as I go, so this may take some time. The current size includes
+		php research.
+
+
+	4. HTTP Query to Google Maps API
+		Status: Complete
+		Team member: Shariann & Brian
+		Size: 2
+		Notes: I discovered that we have to actually show a map
+		in order to have permission to use the Geocoding stuff.
+
+
+	4. Implementation of sortable table
+		Status: In Progress (Implementation)
+		Team member: Shariann
+		Size: 1 + ?
+		Notes: I think having place names instead of GPS coordinates
+		for the web display will be more important than added sorting
+		functionality, so I'm focusing on the address conversion for now.
+
+
+	5. Cross browser compatibility
+		Status: Complete
+		Team member: Brian
+		Size: 3
+
+
+	6. UI Design
+		Status: Complete
+		Team member: Brian
+		Size: 2
+
+
+	7. Database setup
+		Status: Complete
+		Team member: Brian
+		Size: 1
+
+
+	8. UI Implementation
+		Status: Complete
+		Team member: Brian
+		Size: 6
+
+
+	9. Database queries
+		Status: Complete
+		Team member: Brian & James
+		Size: 1
+
+	10. Web UI Improvements for error handling
+		Status: Complete
+		Team member: James
+		Size: 2
+		
+	11. Implement Android Location polling service
+		Status: Complete
+		Team member: Austin
+		Size: 5
+		Notes: Service polls and obtains location using location manager api. Service is configured
+				to get location only from GPS. Start location, current location, and stop location are
+				stored in memory rather than written to db or file as decided in our group meeting.
+	
+	12. Implement Android distance calculations into service
+		Status: Complete
+		Team member: Austin
+		Size: 5
+		Notes: Service watches for location change and when change occurs, it performs distance calculation and stores in memory.
+
+
+	13.Research Database platform for Android side
+		Status:Complte
+		Team member:Frank Gadri
+		Size:3
+		Notes:Decide to use SQLite for my database on the Android side.
+
+
+List of all the stories you are attempting to complete by the end of this iteration
+	1. Implementation of address conversion
+		Status: In Progress (Coding)
+		Team member: Shariann
+		Size: 6 + ?
+
+
+	2. Implementation of sortable table
+		Status: In Progress (Research)
+		Team member: Shariann
+		Size: 4
+
+
+	3. Add map display to UI (attached to table)
+		Status: Not started
+		Team member: James
+		Size: ?
+		Notes: This is a requirement for us to use the Google Maps API.
+		We can add a small map showing the start and end locations to the 
+		table display.
+
+	4. POST/PUT data request from the android phone to the server
+		Status: Not started
+		Team member: James & Austin
+		Size: 4
+		Notes: This will be a bit of a preparation to make sure we can get the two things talking
+		as we expect to. If we succeed then we'll likely get this fully implemented in this iteration.
+		
+	5. Add editability to the trip 'notes' field on web UI
+		Status: Not started
+		Team member: James
+		Size: 2
+
+	6. Connect GPS Mapper app with GPS Mapper Service
+		Description: Implement functionality so the android app interface (buttons) start and stop the service.
+		Status: Not started
+		Team member: Austin
+		Size: 3
+	
+	7. Sync device ID with web user.
+		Description: Implement initial sync between device and web user so that later, gps mapper sessions sync up with the right web user. 
+		Status: Not started
+		Team member: Austin
+		Size: 5
+	8.Create a Database on the Android
+		Description:Create Database on Android to have it commnicate and update server database,And implement communication with server
+		Status:In progress
+		Team Member:Frank Gadri
+		Size:4
+
+List any communication you have had with your user during the iteration.
+	1. N/A

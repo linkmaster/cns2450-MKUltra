@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="app_name">GPS Mapper</string>
+	<string name="session_name">Enter Session Name</string>
+	<string name="start_button">Start</string>
+	<string name="stop_button">Stop</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">GPS Mapper</string>
+    <string name="Provider">Current Provider: </string>
+    <string name="ProviderText">Unknown</string>
+    <string name="CurrentLatitude">Current Latitude: </string>
+    <string name="LatitudeText">Unknown</string>
+    <string name="CurrentLongitude">Current Longitude: </string>
+    <string name="LongitudeText">Unknown</string>
+    <string name="CurrentDistance">Current Distance: </string>
+    <string name="DistanceText">Unknown</string>
+
+</resources>

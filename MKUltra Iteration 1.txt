@@ -1,0 +1,149 @@
+Write down a list of things your team feels they did wrong or poorly and the name of the person who brought it up
+	1. It took us a while to figure out how to break things down and start assigning tasks, which probably affected how much we were able to accomplish this iteration. (Shariann)
+
+
+Write down a list of things your team did right and the name of the person who brought it up.
+	1. Team meetings outside of class. (Shariann)
+
+
+Write down 2 goals for your team to improve on.
+	1. Better communication
+	2. Better planning
+
+
+List of all the stories to completed from the previous iteration
+	1. Design for GPS tracking on Android 
+		Status: Complete
+		Team member: Shariann
+		Size: 1
+
+	2. Code for GPS tracking on Android
+		Status: In Progress/Postponed
+		Team member: Shariann
+		Size: 1 + <next iteration>
+		Notes: Delayed for research, see story #3 below.
+		Add to stories: Research GPS to mileage calculation
+
+	3. Research GPS to mileage calculation
+		Status: Complete
+		Team member: Shariann & Austin
+		Size: 2
+		Add to stories: Android service
+		Notes: found the getLocation() method within the Location class. Pass in a location (previous location) and calculates distance from that to current location. Returns a float.
+
+	4. Design for post-login UI
+		Status: Complete
+		Team member: Shariann & James
+		Size: 2
+		Add to stories: Implementation for post-login UI (next iteration)		
+
+	5. Web hosting
+		Status: Complete	
+		Team member: James & Brian
+		Size: 2
+
+	6. Design for server database
+		Status: Complete
+		Team member: Brian & James
+		Size: 2
+
+	7. Design for login UI
+		Status: Complete
+		Team member: Brian & James
+		Size: 3
+
+	8. Implementation for login UI
+		Status: Complete
+		Team member:  Brian & James
+		Size: 3
+
+	9. General project planning
+		Status: Complete
+		Team member: all
+		Size: 1 * 6
+		Notes: One out-of-class meeting via Google Hangout
+	
+	10. Android Side Database Research
+		Status: Complete
+		Team Member: Frank and Wyatt
+		Size: 2
+		Notes:
+		Frank: Researched IDE for database,Found default Android Database Ingine,
+		called SQLite,found out that Implementation is slightly diff from MySQl and oracle.
+		some of the things I did wrong is not researching before picking IDE.Underestimated my side of the project.
+		Wyatt: Set up a testing and development environment for the android side database, installed android SDK, Eclipse IDE, and the android emulator.
+		Decided with Frank that we will use SQLite.
+
+	11. Create initial Android App UI (deploy android sdk, jdk, and eclipse ide)
+		Status: Complete - code added to github.
+		Team member: Austin
+		Size: 4
+		Notes: was able to create the base app and deploy it to a live android device and emulated device. added start, stop buttons, and a session name field.
+
+
+List of all the stories you are attempting to complete by the end of this iteration
+	1. Implementation for post-login UI:
+		Status: Not started
+		Team member: Brian/James/Shariann
+		Size: (infinity)
+ 		Notes: needs to be broken down
+		Add to stories: sortable table, address conversion, probably others
+
+	2. Creation of Android Side Database upon App Installation
+		Team member: Wyatt 
+		Size: 4
+	
+	3. Service to Database Communication Code
+		Team member: Frank
+		Size: 4
+		
+	4. Implement Android Location polling service
+		Team member: Austin
+		Size: 5
+
+	5. Implement Android distance calculations into service
+		Team member: Austin
+		Size: 5
+
+	6. Continue Android App UI - add mileage display
+		Team member: Austin & Shariann
+		Size: 2
+
+
+List any communication you have had with your user during the iteration.
+	1. Initial communication - clarification
+	2. We determined which version of Android (gingerbread/2.3.3) and which device type (phone, not table) will be supported
+
+       EMAIL TO USER:
+Hi Jason, I'm also part of the team. Do you anticipate using this on an android phone or a tablet? If on a phone, I would suggest we start with baseline support of Honeycomb (the nickname of Android version 2.3.3) which is a probably the most common OS version on android phones right now.
+ 
+Thanks,
+Austin
+On Tue, Sep 25, 2012 at 4:29 PM, Jason Marshall <jasonm@infotraxsys.com> wrote:
+Brian,
+
+I am not sure on this one.  What version would you suggest on this one?
+
+Thanks,
+Jason
+Jason Marshall
+
+      EMAIL TO USER:2
+
+Subject: Re: Gps mapper
+
+Jason,
+
+What should our target android version be for the android side?
+
+Brian
+
+On Sep 17, 2012, at 12:25 PM, Jason Marshall <jasonm@infotraxsys.com> wrote:
+
+Brian,
+
+Based on my understanding of things, I think that would work great.
+
+Thanks,
+
+Jason

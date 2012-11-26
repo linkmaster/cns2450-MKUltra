@@ -1,0 +1,84 @@
+// Each trip has a start point and end point.
+//
+// Originally, both are the start point, but as the user travels,
+// the end point will become the most recently logged GPS coordinates.
+//
+// Mileage will start at 0.0 and be updated as the user travels.
+// 
+// Start and end will both be GPS coordinates.
+//
+// Each trip taken by the user will be stored as data, which can be
+// recovered on the webpage (as far back as one month?).
+//
+// (I think it will be simpler (and use less memory) to track only 
+//  start/end/mileage, but if we really need to map the entire route, 
+//  we can just replace start and end with some kind of list or other
+//  collection-type object.)
+
+public class Trip
+{
+    private GPS_coordinate start;    // GPS coordinates at the beginning
+                                     // of the trip.
+
+    private GPS_coordinate end;      // Most recent GPS coordinates.
+    private double distance;         // Distance travelled from start to end.
+
+    // Constructor.
+    // Parameters: current GPS coordinates
+    // Assigns starting coordinates to both start and end,
+    // and initializes distance to 0.0.        
+    public Trip(GPS_coordinate s)
+    {
+	start = s;
+	end = s;
+	distance = 0.0;
+    }
+        
+    // updateTravel
+    // Takes GPS coordinates as a parameter.
+    //     The coordinates should be of the newest location in the trip.
+    //     This function will compute the distance between the last
+    //     "checkpoint" in the trip and the most recent one, and add that
+    //     to the total distance travelled.
+    // This function is meant to be called by the function which polls for
+    // GPS coordinates. The function should provide the coordinates.
+    public void updateTravel(GPS_coordinate p)
+    {
+	distance += getDistance(end, p);
+	end = p;
+    }
+        
+    // placeholder function: getDistance
+    // This function will compute the distance to travel from one
+    // GPS coordinate to the next.
+    // I don't really know yet how this will be accomplished, so the
+    // input parameters are not really set in stone.
+
+    // In fact, this might belong in the GPS_coordinate class, if we
+    // decide to write our own.
+    public static double getDistance (GPS_coordinate p1, GPS_coordinate p2)
+    {
+          // (p2.latitude - p1.latitude)...???
+          // (p2.longitude - p1.longitude)...???
+	    // Is there a way to track altitude as well, or is
+	    // that already part of the GPS coordinate system?
+    }
+// This is the class which will work with the GPS coordinates. Most likely,
+// the API that deals with retrieving these coordinates will have its own
+// way of handling the data, so we probably won't have to write our own
+// class, although it might be convenient to have a wrapper class of some
+// sort to help simplify things, depending on the functionality of any
+// existing classes.
+
+public class GPS_coordinate
+{
+	private double latitude;
+	private double longitude;
+
+	// Possible function: getDistance
+	// Possible function: getLatitude/Longitude (probably not needed?)
+
+	// If we want it to be safe to pass around objects of this type,
+	// we will need to include copy constructor, destructor, and
+	// assignment operator overload.
+}

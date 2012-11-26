@@ -1,0 +1,114 @@
+Write down a list of things your team feels they did wrong or poorly and the name of the person who brought it up
+	1. We lost track of who was working on what part of the project. (Frank Gadri) 
+	2. First time coding on the android has required more effort and I've had more problems than I expected getting results I expected using google's LocationManager api's. From a team perspective, others are dependent on this code working. (Austin)
+	3. Need to get better at replying to emails from/to each other (James)
+
+
+Write down a list of things your team did right and the name of the person who brought it up.
+	1. We appointed team leaders to be more organized on our project. (Frank Gadri)
+	2. We created a spreadsheet that better displays the project scope and divides the work up between server and android side that makes it easier for us to see what work is done and what work remains. (Austin)
+	3. Getting better at communication though we could still do better... (James)
+
+
+Write down 2 goals for your team to improve on.
+	1. Get more stuff accomplished. (Shariann)
+	2. Communication between the Android and Server. (Brian)
+
+
+Write how well you completed your improvement items from the previous iteration.
+	1. We succeeded in establishing leadership for the team, with one leader for the Android side and one for the web side. (Shariann)
+	2. There seems to be more communication between the two sides of the project, with both sides discussing how the communication will happen between the client and the server. (Wyatt) 
+
+
+List of all the stories completed from the previous iteration
+
+	1.Acquire additional android device for client side application testing 	and development, investigated development application uploading and use
+	Status: Completed
+	Team Member: Wyatt
+	Size: 2
+
+	2. Research how write a network program
+		Status: Completed
+		Team Member:Frank Gadri
+		Size: 2
+        3. Add Ie compatibility for entire web site.
+ 		Status: Complete
+		Team Member: Brian Rodham
+		Size:4
+	4. Add sorting ability to data table
+		Status: Complete
+		Team Member: Brian Rodham
+		Size: 4
+	5. Add basic jquery libraries to site
+		Status: Complete
+		Team Member: Brian Rodham
+		Size: 2
+	6. Fix various javascript bugs that we found from the previous itteration.
+		Status: Complete
+		Team Member: Brian Rodham
+		Size: 2
+	7. Implement reverse geocoding stuff
+		Status: In Progress
+		Team Member: Shariann
+		Size: 12
+	8. Sync device ID with web user.
+		Status: Not complete - Bug in location service required time to fix
+		Team Member: Austin
+		Size: 5
+	9. Connect GPS Mapper app with GPS Mapper Service.
+		Status: Not complete - Bug in location service required time to fix
+		Team Member: Austin
+		Size: 3
+	10. Debug issue with Criteria where the app is failing to correctly use Criteria to determine location provider
+		Status: In progress
+		Team Member: Austin
+		Size: 10
+
+List of all the stories you are attempting to complete by the end of this iteration
+	1. Look into how to create a simple android application and UI
+		Status: Not started
+		Team member: Wyatt
+		Size: 3 - 4
+
+	2. Create improved layout for android client application
+		Status: Not started
+		Team member: Wyatt
+		Size: 7
+
+	
+	3.Write a network Socket programe for Android to communicate with Server
+		Status:Not Started
+		Team member:Frank Gadri
+		Size:6
+
+
+	4.Write a programe to send Data from Android to Server
+		Status:Not started
+		Team member:Frank Gadri
+		Size:7
+
+	5. Display data using google maps API.
+		Status: Not started
+		Team Member: Brian Rodham
+		Size:8
+
+	6. Finish reverse geocoding implementation
+		Status: In Progress
+		Team Member: Shariann
+		Size: ?
+
+	7. Fix location manager issue where coordinates are being taken from passive source instead of active GPS source
+		Team Member: Austin
+		Size: 5
+
+	8. Meet with android tutor on managing services.
+		Team Member: Austin
+		Size: 2
+	
+	9. Android code to check network connectivity before sending gps data.
+		Team Member: Austin
+		Size: 3
+		
+
+List any communication you have had with your user during the iteration.
+	1. N/A
